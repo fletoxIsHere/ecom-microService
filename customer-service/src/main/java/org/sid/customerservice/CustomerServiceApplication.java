@@ -13,8 +13,8 @@ import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import java.util.List;
 
 @SpringBootApplication(exclude = {
-        EurekaClientAutoConfiguration.class,
-        EurekaDiscoveryClientConfiguration.class
+//        EurekaClientAutoConfiguration.class,
+//        EurekaDiscoveryClientConfiguration.class
         // Add other Eureka-related configurations here if necessary
 })public class CustomerServiceApplication {
 
