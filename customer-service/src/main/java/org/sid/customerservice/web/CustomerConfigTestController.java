@@ -9,11 +9,11 @@ import java.util.Map;
 //@RefreshScope
 @RestController
 public class CustomerConfigTestController {
-    @Value("${global.params.p1}")
-    public String p1;
-    @Value("${global.params.p2}")
-
-    public String p2;
+//    @Value("${global.params.p1}")
+//    public String p1;
+//    @Value("${global.params.p2}")
+//
+//    public String p2;
 //    @Value("${customer.params.x}")
 //
 //    public String x;
@@ -21,8 +21,8 @@ public class CustomerConfigTestController {
 //
 //    public String y;
 
-    @GetMapping("/params")
-    public Map<String,String> params(){
-        return Map.of("p1",p1,"p2",p2);
-    }
+//    @GetMapping("/params")
+//    public Map<String,String> params(){
+//        return Map.of("p1",p1,"p2",p2);
+//    }
 }
