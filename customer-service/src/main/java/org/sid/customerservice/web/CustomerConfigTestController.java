@@ -23,6 +23,6 @@ public class CustomerConfigTestController {
 
     @GetMapping("/params")
     public Map<String,String> params(){
-        return Map.of("p1",p1,"p2",p2);
+        return Map.of("p1",p1,"p2",p2,"x",x,"y",y);
     }
 }
